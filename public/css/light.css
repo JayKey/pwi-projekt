@@ -1,0 +1,11 @@
+body {
+	text-shadow: 1px 1px 2px rgb(255,255,255,0.8);
+	color: rgb(30,30,30,1);
+	background-image: linear-gradient(45deg, #ff7b00 40%, #ffffff 40%, #ffffff 50%, #ff7b00 50%, #ff7b00 90%, #ffffff 90%, #ffffff 100%);
+	background-size: 353.55px 353.55px; 
+}
+
+.grid-item {
+	background-color: rgba(0, 204, 255, 1);
+	box-shadow: 1px 1px 4px rgb(0,0,0,0.8);
+}

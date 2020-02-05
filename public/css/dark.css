@@ -1,0 +1,10 @@
+body {
+	text-shadow: 1px 1px 2px rgb(55,55,55,0.8);
+	color: rgb(255,255,255,1);
+	background-color: #42444e;
+}
+
+.grid-item {
+	background-color: rgba(30, 30, 30, 1);
+	box-shadow: 1px 1px 4px rgb(0,0,0,0.8);
+}

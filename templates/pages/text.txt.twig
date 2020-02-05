@@ -1,0 +1,10 @@
+TEXT:
+
+Lista zamówień, przyporządkowana do klientów.
+Lista:
+
+Imię Nazwisko - ID zamówienia: koszt
+
+{% for row in data %}
+{{ row.first_name }} {{ row.last_name }} - {{ row.order_id }}: ${{ row.cost }}.00
+{% endfor %}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <!-- END Google Fonts -->
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link id="css" rel="stylesheet" type="text/css" href="css/dark.css">
+
+    {% block style %}
+    {% endblock %}
+
+    <title>
+        {% block title %}
+        {% endblock %}
+    </title>
+</head>
+<body>
+    {% block body %}
+    {% endblock %}
+
+    <script src="js/cookie.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="js/cssSwitcher.js"></script>
+
+    {% block script %}
+    {% endblock %}
+</body>
+</html>

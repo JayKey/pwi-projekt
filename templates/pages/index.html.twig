@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    DB Manager
+{% endblock %}
+
+{% block body %}
+    <div class="grid">
+        <div class="grid-row">
+            <div class="grid-item grid-item-12">
+                <span>Database Manager</span>
+            </div>
+            <div class="grid-item grid-item-6">
+                <span><a href="#" onClick="switchCSS();">Switch CSS</a></span>
+            </div>
+            <div class="grid-item grid-item-6">
+                <ul id="tablesList">
+                </ul>
+            </div>
+        </div>
+        <div class="grid-row">
+            <div class="grid-item grid-item-12">
+                <table id="table">
+                    <tr id="table-header">
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="grid-row">
+            <div class="grid-item grid-item-12">
+                <a href="/" id="logout">Logout</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block script %}
+    <script src="js/logout.js"></script>
+    <script src="js/db/list.js"></script>
+
+{% endblock %}
